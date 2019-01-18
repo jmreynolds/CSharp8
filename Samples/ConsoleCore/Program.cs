@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleAppCore
+namespace ConsoleCore
 {
     class Program
     {
@@ -12,11 +12,10 @@ namespace ConsoleAppCore
 
             string? fooNull = null;
             if(!string.IsNullOrEmpty(fooNull))
-                Console.WriteLine($"First Character of Foo is {fooNull[0]}");
+                Console.WriteLine($"First Character of Foo is {fooNull.Value[0]}");
 
             Console.WriteLine("Hello World!");
 
-            Console.ReadKey();
         }
     }
 }
