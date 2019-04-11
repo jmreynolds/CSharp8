@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleCore
+namespace NullableReferenceTypes
 {
     class Program
     {
@@ -12,10 +12,9 @@ namespace ConsoleCore
 
             string? fooNull = null;
             if(!string.IsNullOrEmpty(fooNull))
-                Console.WriteLine($"First Character of Foo is {fooNull.Value[0]}");
+                Console.WriteLine($"First Character of Foo is {fooNull[0]}");
 
             Console.WriteLine("Hello World!");
-
         }
     }
 }

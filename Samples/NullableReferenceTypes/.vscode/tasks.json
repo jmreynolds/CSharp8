@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ConsoleCore.csproj"
+                "${workspaceFolder}/NullableReferenceTypes.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
