@@ -8,22 +8,30 @@ namespace RangesAndIndices
     {
         static void Main(string[] args)
         {
-            foreach (var name in GetNames())
+            WriteLine("Names 1-3:");
+            foreach (var name in GetRangeOfNames(1..4))
+            {
+                // Endpoint of range is EXCLUSIVE
+                WriteLine(name);
+            }
+
+            WriteLine("Names 1-3 - using end index:");
+            foreach (var name in GetRangeOfNames(1..^1))
             {
                 WriteLine(name);
             }
         }
-
-    static IEnumerable<string> GetNames()
-    {
-        string[] names =
+        static string[] names =
         {
             "Archimedes", "Pythagoras", "Euclid", "Socrates", "Plato"
         };
-        foreach (var name in names[1..4])
+        static IEnumerable<string> GetRangeOfNames(Range range)
         {
-            yield return name;
+
+            foreach (var name in names[range])
+            {
+                yield return name;
+            }
         }
-    }
     }
 }
