@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RangesAndIndices", "RangesA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncStream", "AsyncStream\AsyncStream.csproj", "{86693A7A-4745-4EA9-A9C3-FF0740B69426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatching", "PatternMatching\PatternMatching.csproj", "{921DF9FD-3289-4E8E-A019-32C971645355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternMatching", "PatternMatching\PatternMatching.csproj", "{921DF9FD-3289-4E8E-A019-32C971645355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticLocalFuncs", "StaticLocalFuncs\StaticLocalFuncs.csproj", "{08CF9991-6AFD-4164-9152-6DA8CE140CDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{921DF9FD-3289-4E8E-A019-32C971645355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921DF9FD-3289-4E8E-A019-32C971645355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921DF9FD-3289-4E8E-A019-32C971645355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CF9991-6AFD-4164-9152-6DA8CE140CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CF9991-6AFD-4164-9152-6DA8CE140CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CF9991-6AFD-4164-9152-6DA8CE140CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CF9991-6AFD-4164-9152-6DA8CE140CDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
